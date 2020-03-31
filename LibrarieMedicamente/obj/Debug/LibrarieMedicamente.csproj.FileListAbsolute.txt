@@ -1,0 +1,5 @@
+D:\Farmacia\FarmaFarmacie\LibrarieMedicamente\bin\Debug\LibrarieMedicamente.dll
+D:\Farmacia\FarmaFarmacie\LibrarieMedicamente\bin\Debug\LibrarieMedicamente.pdb
+D:\Farmacia\FarmaFarmacie\LibrarieMedicamente\obj\Debug\LibrarieMedicamente.csprojAssemblyReference.cache
+D:\Farmacia\FarmaFarmacie\LibrarieMedicamente\obj\Debug\LibrarieMedicamente.dll
+D:\Farmacia\FarmaFarmacie\LibrarieMedicamente\obj\Debug\LibrarieMedicamente.pdb

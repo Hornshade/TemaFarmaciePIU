@@ -1,0 +1,8 @@
+D:\Farmacia\FarmaFarmacie\StocareData\bin\Debug\StocareData.dll
+D:\Farmacia\FarmaFarmacie\StocareData\bin\Debug\StocareData.pdb
+D:\Farmacia\FarmaFarmacie\StocareData\bin\Debug\LibrarieMedicamente.dll
+D:\Farmacia\FarmaFarmacie\StocareData\bin\Debug\LibrarieMedicamente.pdb
+D:\Farmacia\FarmaFarmacie\StocareData\obj\Debug\StocareData.csprojAssemblyReference.cache
+D:\Farmacia\FarmaFarmacie\StocareData\obj\Debug\StocareData.csproj.CopyComplete
+D:\Farmacia\FarmaFarmacie\StocareData\obj\Debug\StocareData.dll
+D:\Farmacia\FarmaFarmacie\StocareData\obj\Debug\StocareData.pdb

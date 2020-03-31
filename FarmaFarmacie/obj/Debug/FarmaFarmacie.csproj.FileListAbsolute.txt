@@ -1,0 +1,11 @@
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\bin\Debug\FarmaFarmacie.exe.config
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\bin\Debug\FarmaFarmacie.exe
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\bin\Debug\FarmaFarmacie.pdb
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\obj\Debug\FarmaFarmacie.csprojAssemblyReference.cache
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\obj\Debug\FarmaFarmacie.exe
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\obj\Debug\FarmaFarmacie.pdb
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\bin\Debug\LibrarieMedicamente.dll
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\bin\Debug\StocareData.dll
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\bin\Debug\LibrarieMedicamente.pdb
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\bin\Debug\StocareData.pdb
+D:\Farmacia\FarmaFarmacie\FarmaFarmacie\obj\Debug\FarmaFarmacie.csproj.CopyComplete

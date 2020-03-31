@@ -1,0 +1,5 @@
+3;Ospen;83
+2;Paracetamol;25
+3;Paracetamol;25
+4;Aspirina;80
+5;Ospen;150
