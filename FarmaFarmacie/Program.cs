@@ -29,6 +29,8 @@ namespace FarmaFarmacie
                 Console.WriteLine("3.Editare medicament.");
                 Console.WriteLine("4.Afisare lista medicamente.");
                 Console.WriteLine("5.Cautare medicament.");
+                Console.WriteLine("6.Tema3_1 adauga medicament.");
+                Console.WriteLine("7.Compara pretul a 2 medicamente.");
                 Console.WriteLine("X.Iesire.");
                 Console.WriteLine("\nSelectati o optiune : ");
 
@@ -38,7 +40,6 @@ namespace FarmaFarmacie
                     case "1":
                         Medicamente m = CitireMedicament();
                         med[nrMedicamente] = m;
-                        
                         adminMedicamente.AddMedicament(m);              //adauga medicamentul in fisierul text
                         #region OLD_CODE_ADD  
                         //med[nrMedicamente - 1] = new Medicamente();
@@ -102,6 +103,10 @@ namespace FarmaFarmacie
                         string tema3_1 = Console.ReadLine();
                         Medicamente tema3 = new Medicamente(tema3_1,3);
                         Console.WriteLine(tema3.ConvertString());
+                        Console.ReadKey();
+                        break;
+                    case "7":
+                        Console.WriteLine(med[0].CompararePret(med[1]));
                         Console.ReadKey();
                         break;
                     case "X":
@@ -177,7 +182,7 @@ namespace FarmaFarmacie
             return m;
 
         }
-
+        
         public static void EditMed(Medicamente[] med,int ind)
         {
             Console.WriteLine("Introduceti noul nume al medicamentului: ");

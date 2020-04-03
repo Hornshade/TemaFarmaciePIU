@@ -22,6 +22,8 @@ namespace LibrarieMedicamente
         public static int IdUltimMedicament { get; set; } = 0;
         public int IdMedicament { get; set; }    
         public string Name { get; set; }
+
+        public int Pret_ { get; set; }
         
         #region Constructori
 
@@ -30,7 +32,8 @@ namespace LibrarieMedicamente
         {
             Name = string.Empty;
             IdUltimMedicament++;
-            IdMedicament = IdUltimMedicament;      
+            IdMedicament = IdUltimMedicament;
+            Pret_ = 0;
         }
 
         //cu 1 param
@@ -49,6 +52,7 @@ namespace LibrarieMedicamente
             _Price.CopyTo(Price, 0);
             IdUltimMedicament++;
             IdMedicament = IdUltimMedicament;
+            Pret_ = _Price[0];
         }
 
         // cu 1 param tip string pt linie din fisier text
@@ -59,17 +63,19 @@ namespace LibrarieMedicamente
             IdMedicament = Convert.ToInt32(dateFisier[ID]);
             Name = dateFisier[NUME];
             SetPrice(dateFisier[PRET]);
+            Pret_ = Convert.ToInt32(dateFisier[PRET]);
             IdUltimMedicament = IdMedicament;
         }
 
 
         //Tema3_1
-        public Medicamente(string nume,int s)
+        public Medicamente(string nume,int neutilizat)                         //am adaugat int-ul pentru a face o diferenta intre acest constructor si cel ce primeste doar parametru string
         {
             string[] strg = new string[2];
             strg = nume.Split(',');
             Name = strg[0];
             SetPrice(strg[1]);
+            Pret_ = Convert.ToInt32(strg[1]);
         }
 
         #endregion
@@ -123,6 +129,16 @@ namespace LibrarieMedicamente
                 SEPARATOR_PRINCIPAL_FISIER, IdMedicament.ToString(), (Name ?? " NECUNOSCUT "), sPrice);
 
             return m;
+        }
+
+        public string CompararePret(Medicamente m)
+        {
+            if (m.Pret_ > this.Pret_)
+                return string.Format("Medicamentul {0} este mai scump decat medicamentul {1}", m.Name, this.Name);
+            else if (m.Pret_ < this.Pret_)
+                return string.Format("Medicamentul {0} este mai ieftin decat medicamentul {1}", m.Name, this.Name);
+            else
+                return string.Format("Medicamentele au acelasi pret.");
         }
     }
 }
